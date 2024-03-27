@@ -26,3 +26,23 @@ npm install
 ```bash
 npm start
 ```
+
+6. Enviar e buscar alterações para o repositório remoto:
+
+**OBS: Não enviar alterações para outras branches a não ser a sua**
+
+1. Enviar:
+- se for a primeira vez:
+```bash
+git push --set-upstream origin NOME-SUA-BRANCH
+```
+
+- se não:
+```bash
+git push
+```
+
+2. Buscar
+```bash
+git pull
+```
